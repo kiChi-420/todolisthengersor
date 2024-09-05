@@ -1,0 +1,97 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: rgb(254, 196, 175);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 173, 145);
+    border-radius: .5vw;
+}
+
+p{
+    text-align: center;
+}
+
+section{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 10vw;
+    height: auto;
+}
+
+.header-element{
+    padding: .5vw;
+    margin: .5vw;
+    background-color: coral;
+    color: white;
+    border-radius: 1vw;
+}
+
+.feladat-sor{
+    background-color: rgb(237, 148, 116);
+    border-radius: .5vw ;
+    margin-top: 2vw;
+    padding: 1vw;
+}
+
+.alfeladatok{
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.sor-div{
+    margin: .5vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+#alfeladat{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: red;
+    border-radius: .2vw;
+}
+
+.feladat-fejlec{
+    padding: 1.2vw;
+    margin: .5vw;
+    border-radius: .5vw;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+#plusz-div{
+    margin: auto;
+}
+
+@media screen and (max-width: 800px){
+    header{
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 466px){
+    .feladat-fejléc{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    button{
+        font-size: larger;
+    }
+}

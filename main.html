@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Amikor a kocsma a fejembe száll</title>
+</head>
+<body>
+    <header>
+        <div class="header-element">
+            <h1>Feladat kezelős feladat</h1>
+        </div>
+        <div class="header-element">
+            <p>Feladat neve:</p>
+            <input id="feladat-neve" type="text">
+            <button id="uj-sor">Feladat hozzáadása</button>
+        </div>
+    </header>
+
+    <section id="ide-rakom-a-dolgokat">
+        <div class="feladat-sor">
+            <h3>${feladat_neve}</h3>
+            <div class="feladat-fejlec">
+                <button>🖊️</button>
+                <button>⬆️</button>
+                <button>⬇️</button>
+                <button>✔️</button>
+                <button>❌</button>
+                <button id="torles">🗑️</button>
+            </div>
+            <div class="alfeladatok">
+                <div id="alfeladat">
+                    <p>Alfeladat neve</p>
+                    <button>✔️</button>
+                    <button>❌</button>
+                    <button>🗑️</button>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
